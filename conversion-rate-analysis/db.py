@@ -1,6 +1,5 @@
 import hashlib
 import os
-from datetime import datetime
 from functools import wraps
 from typing import Callable
 
@@ -9,8 +8,7 @@ import pandas as pd
 
 
 def hash_args_kwargs(func, *args, **kwargs):
-    current_hour = datetime.now().hour
-    data = f"{func.__name__}{args}{kwargs}{current_hour}".encode()
+    data = f"{func.__name__}{args}{kwargs}".encode()
     return hashlib.md5(data).hexdigest()
 
 
@@ -48,7 +46,7 @@ class DB(object):
             f'mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}')
 
     @cache_db_data
-    def get_funnel_steps_log(self, start_date: str) -> pd.DataFrame:
+    def get_funnel_steps_log(self, start_date: str, end_date: str = None) -> pd.DataFrame:
         query = f'''
         select entity_id as cart_id,
                changed_at,
@@ -56,8 +54,12 @@ class DB(object):
         from digikala_log.carts_log
         where changed_at > '{start_date}'
           and json_extract(changes, '$.funnel_step') is not null
-        order by id desc;
         '''
+
+        if end_date is not None:
+            query += f'and changed_at < {end_date}'
+
+        query += 'order by id desc;'
 
         df = pd.read_sql(query, self._log_engine)
         df['changed_at'] = pd.to_datetime(df['changed_at'])
@@ -65,21 +67,26 @@ class DB(object):
         return df
 
     @cache_db_data
-    def get_user_data(self, start_date: str):
+    def get_user_data(self, start_date: str, end_date: str = None):
         query = f'''
         select c.id as cart_id, u.id as user_id, u.gender, u.foreigner, u.customer_type, u.customer_clustering_rate, u.user_category
         from digikala.carts c
                  join digikala.users u on c.user_id = u.id
         where c.created_at > '{start_date}'
           and c.site = 'digikala'
-          and c.business_type = 'b2c';
+          and c.business_type = 'b2c'
         '''
+
+        if end_date is not None:
+            query += f'and changed_at < {end_date}'
+
+        query += ';'
 
         df = pd.read_sql(query, self._engine)
         return df
 
     @cache_db_data
-    def get_cart_data(self, start_date: str):
+    def get_cart_data(self, start_date: str, end_date: str = None):
         query = f'''
         select id, status, payable_price, source, source_close
         from digikala.carts
@@ -87,8 +94,13 @@ class DB(object):
           and site = 'digikala'
           and business_type = 'b2c'
           and source != 'core'
-          and source != 'mehr';
+          and source != 'mehr'
         '''
+
+        if end_date is not None:
+            query += f'and changed_at < {end_date}'
+
+        query += ';'
 
         df = pd.read_sql(query, self._engine)
         return df
