@@ -1,10 +1,10 @@
 import hashlib
 import os
+import pandas as pd
+
 from functools import wraps
 from typing import Callable
-
-import sqlalchemy
-import pandas as pd
+from db_engine import DBEngine
 
 
 def hash_args_kwargs(func, *args, **kwargs):
@@ -27,23 +27,8 @@ def cache_db_data(func: Callable):
 
 class DB(object):
     def __init__(self):
-        user = 'user'
-        password = 'pass'
-        host = 'localhost'
-        port = '80'
-        database = 'db_log'
-        assert user != "" and password != "", "please enter your user and password"
-        self._log_engine = sqlalchemy.create_engine(
-            f'mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}')
-
-        user = 'user'
-        password = 'pass'
-        host = 'localhost'
-        port = '80'
-        database = 'db'
-        assert user != "" and password != "", "please enter your user and password"
-        self._engine = sqlalchemy.create_engine(
-            f'mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}')
+        self._log_engine = DBEngine.get_digikala_log_engine()
+        self._engine = DBEngine.get_digikala_engine()
 
     @cache_db_data
     def get_funnel_steps_log(self, start_date: str, end_date: str = None) -> pd.DataFrame:
