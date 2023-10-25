@@ -1,1 +1,2 @@
-[source](https://www.kaggle.com/competitions/nlp-getting-started/)
+- [source](https://www.kaggle.com/competitions/nlp-getting-started/)
+- [learn nlp](https://www.kaggle.com/code/faressayah/natural-language-processing-nlp-for-beginners#%F0%9F%94%81-Representing-text-as-numerical-data)
