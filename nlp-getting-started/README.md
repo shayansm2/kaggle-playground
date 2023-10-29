@@ -11,14 +11,13 @@ detection problem. Some NLP definitions and techniques will also be introduced i
 
 ### Input Data
 
-| column name | type    | metadata                                        |
-|-------------|---------|-------------------------------------------------|
-| id          | integer |                                                 |
-| keyword     | string  | 222 unique values, <br> has missing values (1%) |
-| location    | string  | has missing values (33%)                        |
-| text        | string  | no missing value                                |
-| target      | boolean | no missing value                                |
-
+| column name | type    | metadata                                                  |
+|-------------|---------|-----------------------------------------------------------|
+| id          | integer |                                                           |
+| keyword     | string  | 222 unique values, <br> has missing values (less than 1%) |
+| location    | string  | has missing values (49%)                                  |
+| text        | string  | no missing value                                          |
+| target      | boolean | no missing value                                          |
 
 ### Exposed API Schema
 
@@ -34,13 +33,11 @@ Content-Type: application/json
 }
 ```
 
-## steps, links, contents, 
+## steps, links, contents,
 
 - EDA
-- Model training
+- Model training and selection
 - Web service
-
-
 
 ## Sources
 
