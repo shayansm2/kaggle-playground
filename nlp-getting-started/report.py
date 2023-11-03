@@ -9,7 +9,7 @@ def report(metrics: MetricsCalculator):
     from matplotlib.patches import Rectangle
 
     # create a figure and axis
-    fig, ax = plt.subplots(figsize=(12, 1))
+    fig, ax = plt.subplots(figsize=(10, 1))
 
     # create the first rectangle with text
     score = round(metrics.get_accuracy(), 3)
