@@ -32,15 +32,22 @@ def report(metrics: MetricsCalculator):
     ax.add_patch(rect3)
     ax.text(3.5, 0.5, text3, ha='center', va='center')
 
+    # create the third rectangle with text
+    score = round(metrics.get_f1(), 3)
+    rect3 = Rectangle((4.5, 0), 1, 1, color=get_color(score))
+    text3 = f'F1 : {score}'
+    ax.add_patch(rect3)
+    ax.text(5, 0.5, text3, ha='center', va='center')
+
     # create the fourth rectangle with text
     score = round(metrics.get_auc(), 3)
-    rect4 = Rectangle((4.5, 0), 1, 1, color=get_color(score))
+    rect4 = Rectangle((6, 0), 1, 1, color=get_color(score))
     text4 = f'AUC : {score}'
     ax.add_patch(rect4)
-    ax.text(5, 0.5, text4, ha='center', va='center')
+    ax.text(6.5, 0.5, text4, ha='center', va='center')
 
     # set the axis limits and remove the axis ticks
-    ax.set_xlim(0, 6)
+    ax.set_xlim(0, 7.5)
     ax.set_ylim(0, 1)
     ax.set_xticks([])
     ax.set_yticks([])

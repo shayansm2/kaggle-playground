@@ -1,5 +1,5 @@
 from sklearn.metrics import roc_auc_score, accuracy_score, recall_score, precision_score, roc_curve, confusion_matrix, \
-    ConfusionMatrixDisplay
+    ConfusionMatrixDisplay, f1_score
 from matplotlib import pyplot as plt
 
 class MetricsCalculator(object):
@@ -22,6 +22,9 @@ class MetricsCalculator(object):
 
     def get_precision(self):
         return precision_score(self.y_true, self.y_pred >= self.threshold)
+
+    def get_f1(self):
+        return f1_score(self.y_true, self.y_pred >= self.threshold)
 
     def get_confusion_matrix(self):
         return confusion_matrix(self.y_true, self.y_pred >= self.threshold)
