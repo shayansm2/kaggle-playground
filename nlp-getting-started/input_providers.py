@@ -73,7 +73,7 @@ class InputProvider2(InputProviderInterface):
         df = add_new_features_from_text(df)
         y = df.target
         df.drop(columns=['id', 'text', 'target'], inplace=True)
-        df.fillna(0)
+        df['keyword'].fillna('', inplace=True)
         self.vect.fit(df.to_dict(orient='records'))
         x = self.vect.transform(df.to_dict(orient='records'))
         return x, y
@@ -138,6 +138,7 @@ class InputProvider5(InputProviderInterface):
         self.count_vect.fit(df['clean_text'])
         tokens = self.count_vect.transform(df['clean_text'])
         df.drop(columns=['text', 'clean_text', 'id', 'target'], inplace=True)
+        df['keyword'].fillna('', inplace=True)
         self.dict_vect.fit(df.to_dict(orient='records'))
         features = self.dict_vect.transform(df.to_dict(orient='records'))
         sparce_features = csr_matrix(features)
