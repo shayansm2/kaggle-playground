@@ -41,7 +41,7 @@ def add_clean_text_features(df_original: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-class InputProvider(object):
+class InputProviderInterface(object):
     def get_train_inputs(self, df: pd.DataFrame) -> tuple:
         pass
 
@@ -49,7 +49,7 @@ class InputProvider(object):
         pass
 
 
-class InputProvider1(InputProvider):
+class InputProvider1(InputProviderInterface):
     @staticmethod
     def _get_input_base(df: pd.DataFrame) -> tuple:
         df = add_new_features_from_text(df)
@@ -65,7 +65,7 @@ class InputProvider1(InputProvider):
         return self._get_input_base(df)
 
 
-class InputProvider2(InputProvider):
+class InputProvider2(InputProviderInterface):
     def __init__(self):
         self.vect = DictVectorizer()
 
@@ -73,6 +73,7 @@ class InputProvider2(InputProvider):
         df = add_new_features_from_text(df)
         y = df.target
         df.drop(columns=['id', 'text', 'target'], inplace=True)
+        df.fillna(0)
         self.vect.fit(df.to_dict(orient='records'))
         x = self.vect.transform(df.to_dict(orient='records'))
         return x, y
@@ -81,11 +82,12 @@ class InputProvider2(InputProvider):
         df = add_new_features_from_text(df)
         y = df.target
         df.drop(columns=['id', 'text', 'target'], inplace=True)
+        df.fillna(0)
         x = self.vect.transform(df.to_dict(orient='records'))
         return x, y
 
 
-class InputProvider3(InputProvider):
+class InputProvider3(InputProviderInterface):
     def __init__(self):
         self.vect = CountVectorizer()
 
@@ -103,7 +105,7 @@ class InputProvider3(InputProvider):
         return x, y
 
 
-class InputProvider4(InputProvider):
+class InputProvider4(InputProviderInterface):
     def __init__(self):
         self.vect = CountVectorizer()
 
@@ -125,7 +127,7 @@ class InputProvider4(InputProvider):
         return x, y
 
 
-class InputProvider5(InputProvider):
+class InputProvider5(InputProviderInterface):
     def __init__(self):
         self.count_vect = CountVectorizer()
         self.dict_vect = DictVectorizer()
