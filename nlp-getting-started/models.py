@@ -39,7 +39,14 @@ class GradientBoostingModel(GradientBoostingClassifier, ModelInterface):
 class XGBoostModel(ModelInterface):
     def __init__(self):
         self.xgb_model = None
-        self.xgb_params = {}
+        self.xgb_params = {
+            'eta': 0.3,
+            'max_depth': 6,
+            'min_child_weight': 1,
+            'objective': 'binary:logistic',
+            'nthread': 8,
+            'silent': 1
+        }
 
     def fit(self, x, y):
         d_train = xgb.DMatrix(x, y)
@@ -53,3 +60,7 @@ class XGBoostModel(ModelInterface):
         d_val = xgb.DMatrix(x)
         prob = self.xgb_model.predict(d_val)
         return np.column_stack((1 - prob, prob))
+
+    def set_hyper_parameter(self, name: str, value):
+        self.xgb_params[name] = value
+        return self
