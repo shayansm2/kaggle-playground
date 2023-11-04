@@ -3,7 +3,7 @@ import numpy as np
 import xgboost as xgb
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 
 class ModelInterface:
@@ -29,6 +29,10 @@ class DecisionTreeModel(DecisionTreeClassifier, ModelInterface):
 
 
 class RandomForestModel(RandomForestClassifier, ModelInterface):
+    pass
+
+
+class GradientBoostingModel(GradientBoostingClassifier, ModelInterface):
     pass
 
 
