@@ -45,7 +45,8 @@ class XGBoostModel(ModelInterface):
             'min_child_weight': 1,
             'objective': 'binary:logistic',
             'nthread': 8,
-            'silent': 1
+            'silent': 1,
+            'eval_metric': 'auc'
         }
 
     def fit(self, x, y):
