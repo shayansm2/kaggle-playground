@@ -48,10 +48,11 @@ class XGBoostModel(ModelInterface):
             'silent': 1,
             'eval_metric': 'auc'
         }
+        self.num_boost_round = 10
 
     def fit(self, x, y):
         d_train = xgb.DMatrix(x, y)
-        self.xgb_model = xgb.train(self.xgb_params, d_train)
+        self.xgb_model = xgb.train(self.xgb_params, d_train, num_boost_round=self.num_boost_round)
 
     def predict(self, x):
         d_val = xgb.DMatrix(x)
@@ -63,5 +64,8 @@ class XGBoostModel(ModelInterface):
         return np.column_stack((1 - prob, prob))
 
     def set_hyper_parameter(self, name: str, value):
-        self.xgb_params[name] = value
+        if name == 'num_boost_round':
+            self.num_boost_round = value
+        else:
+            self.xgb_params[name] = value
         return self
