@@ -38,7 +38,7 @@ Content-Type: application/json
 - [EDA](./eda.ipynb)
 - [feature extraction](./feature-eng.ipynb)
 - [Model training and validation](./models.ipynb)
-- hyper-parameter tuning
+- [hyper-parameter tuning](./hyper-parameter.ipynb)
 - Web service
 
 ## Sources
