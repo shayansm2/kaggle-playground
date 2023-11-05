@@ -33,12 +33,27 @@ Content-Type: application/json
 }
 ```
 
-response: 
+response:
+
 ```json
 {
-    "probability": 0.8794235284958574,
-    "status": "disaster"
+  "probability": 0.8794235284958574,
+  "status": "disaster"
 }
+```
+
+in order to use the model
+
+1. build the image from Dockerfile
+
+```commandline
+docker build -t twitter_disaster_detection ./
+```
+
+2. build a container from the image and run it
+
+```commandline
+docker run -it -p 1234:1234 twitter_disaster_detection
 ```
 
 ## steps, links, contents,
@@ -47,7 +62,7 @@ response:
 - [feature extraction](./feature-eng.ipynb)
 - [Model training and validation](./models.ipynb)
 - [hyper-parameter tuning](./hyper-parameter.ipynb)
-- [Web service](./web-server.py)
+- [Web service](./web_server.py)
 
 ## Sources
 
