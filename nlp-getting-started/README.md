@@ -23,13 +23,21 @@ detection problem. Some NLP definitions and techniques will also be introduced i
 
 ```http request
 POST /api/disaster-predict/ HTTP/1.1
-Host: localhost
+Host: localhost:1234
 Content-Type: application/json
 
 {
-    "keyword": "ablaze",
-    "location": "USA",
-    "text": "INEC Office in Abia Set Ablaze - http://t.co/3ImaomknnA"
+    "text": "Christian Attacked by Muslims at the Temple Mount after Waving Israeli Flag via Pamela Geller - ... http://t.co/OGoyzOlJk5",
+    "keyword": "attacked",
+    "location": "Revolutionary Road, USA"
+}
+```
+
+response: 
+```json
+{
+    "probability": 0.8794235284958574,
+    "status": "disaster"
 }
 ```
 
@@ -39,7 +47,7 @@ Content-Type: application/json
 - [feature extraction](./feature-eng.ipynb)
 - [Model training and validation](./models.ipynb)
 - [hyper-parameter tuning](./hyper-parameter.ipynb)
-- Web service
+- [Web service](./web-server.py)
 
 ## Sources
 
