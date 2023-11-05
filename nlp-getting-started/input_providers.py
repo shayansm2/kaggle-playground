@@ -154,3 +154,14 @@ class InputProvider5(InputProviderInterface):
         sparce_features = csr_matrix(features)
         x = hstack([tokens, sparce_features])
         return x, y
+
+    def get_input(self, df: pd.DataFrame):
+        df = add_new_features_from_text(add_clean_text_features(df))
+        tokens = self.count_vect.transform(df['clean_text'])
+        df = df[
+            ['keyword', 'clean_words_count', 'words_count', 'has_location', 'has_question_mark', 'has_exclamation_mark',
+             'has_hashtag', 'has_capital_words', 'has_link']]
+        features = self.dict_vect.transform(df.to_dict(orient='records'))
+        sparce_features = csr_matrix(features)
+        x = hstack([tokens, sparce_features])
+        return x

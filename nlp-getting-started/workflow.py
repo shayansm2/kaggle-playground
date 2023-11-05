@@ -17,9 +17,9 @@ class TrainValidationWorkflow(object):
         self.df_train = df_train
         self.df_validation = df_validation
 
-    def get_model(self):
+    def get_model_and_input_provider(self) -> tuple:
         self._train_flow()
-        return self.model
+        return self.model, self.input_provider
 
     def get_metrics_calculator(self) -> MetricsCalculator:
         self._train_flow()
