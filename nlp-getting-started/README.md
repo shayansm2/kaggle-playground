@@ -70,6 +70,5 @@ docker run -it -p 1234:1234 twitter_disaster_detection
 - [competition link](https://www.kaggle.com/competitions/nlp-getting-started/)
 - [a notebook learning NLP](https://www.kaggle.com/code/faressayah/natural-language-processing-nlp-for-beginners#%F0%9F%94%81-Representing-text-as-numerical-data)
 - [another notebook learning NLP](https://www.kaggle.com/code/philculliton/nlp-getting-started-tutorial/notebook)
-- [Getting started with natural language processing (microsoft)](https://microsoft.github.io/ML-For-Beginners/#/6-NLP/README?id=lessons)
 
 [//]: # (add this to kaggle note book too and mention it here)
