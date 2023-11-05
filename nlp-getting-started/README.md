@@ -56,13 +56,14 @@ docker build -t twitter_disaster_detection ./
 docker run -it -p 1234:1234 twitter_disaster_detection
 ```
 
-## steps, links, contents,
+## All steps from discovering data to building an api for disaster detection
 
-- [EDA](./eda.ipynb)
-- [feature extraction](./feature-eng.ipynb)
-- [Model training and validation](./models.ipynb)
-- [hyper-parameter tuning](./hyper-parameter.ipynb)
-- [Web service](./web_server.py)
+1. [EDA](./eda.ipynb)
+2. [feature extraction](./feature-eng.ipynb)
+3. [Model training and validation](./models.ipynb)
+4. [hyper-parameter tuning](./hyper-parameter.ipynb)
+5. [Web service](./web_server.py)
+6. [Containerization](./Dockerfile)
 
 ## Sources
 
