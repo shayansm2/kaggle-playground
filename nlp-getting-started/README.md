@@ -59,9 +59,9 @@ docker run -it -p 1234:1234 twitter_disaster_detection
 ## All steps from discovering data to building an api for disaster detection
 
 1. [EDA](./eda.ipynb)
-2. [feature extraction](./feature-eng.ipynb)
+2. [Feature extraction](./feature-eng.ipynb)
 3. [Model training and validation](./models.ipynb)
-4. [hyper-parameter tuning](./hyper-parameter.ipynb)
+4. [Hyper-parameter tuning](./hyper-parameter.ipynb)
 5. [Web service](./web_server.py)
 6. [Containerization](./Dockerfile)
 
