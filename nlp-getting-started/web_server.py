@@ -46,7 +46,7 @@ def get_disaster_prediction():
             'error': error.args[0]
         })
     return jsonify({
-        'probability': prob,
+        'probability': round(prob, 3),
         'status': 'disaster' if prob >= 0.5 else 'non-disaster'
     })
 
