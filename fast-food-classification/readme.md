@@ -18,15 +18,10 @@
 
 - [gateway](py-scripts%2Fgateway.py)
 
-### Reproducibility
-
-### Model Deployment
-
-### Dependency and env mgmt
-
 ### Containerization
+- [deployment](deployment)
+- [kube-config](kube-config)
 
-### Cloud Deployment
 
 evaluation source:
 > https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml

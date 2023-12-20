@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fast-food-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fast-food-model
+  template:
+    metadata:
+      labels:
+        app: fast-food-model
+    spec:
+      containers:
+        - name: tf-serving-clothing-model
+          image: fast-food-model:v1-xception
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "0.5"
+          ports:
+            - containerPort: 8500
