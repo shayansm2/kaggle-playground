@@ -2,7 +2,11 @@
 
 ### Problem Description
 ### EDA
+- [eda](jupyter-files/eda.ipynb)
 ### Model Training
+- [base models analysis](jupyter-files/base-models-analysis.ipynb)
+- [transfer learning](jupyter-files/transfer-learning.ipynb)
+- [hyperparameter tunning](jupyter-files/hyperparameter-tunning.ipynb)
 ### Script files
 ### Reproducibility
 ### Model Deployment
