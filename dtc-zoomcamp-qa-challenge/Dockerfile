@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements_deployment.txt
 
 COPY ["py_scripts/__init__.py", "py_scripts/model_interface.py", "./py_scripts/"]
 COPY ["data/train_answers.csv", "data/test_answers.csv", "./data/"]
-COPY ["model.h5", "py_scripts/api_server.py", "/"]
+COPY ["model.h5", "./model.h5/"]
+COPY ["py_scripts/api_server.py", "./"]
 # Expose port 5678 for Gunicorn
 EXPOSE 5678
 
