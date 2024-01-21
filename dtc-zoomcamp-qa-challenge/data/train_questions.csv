@@ -1,0 +1,398 @@
+question_id,question,course,year,candidate_answers,answer_id
+79062,"For categorical target set, where the distribution is imbalanced (for example, 90/10) what approach should be used?",Machine Learning Zoomcamp,2021,"156400,754877,105368,643810,912439",156400
+468946,"Is there anything that we are not allowed to use? For example, if you want to use hyper-parameter tuning, are we allowed to use GridSearchCV, RandomizedSearchCV?",Machine Learning Zoomcamp,2021,"641330,634887,912439,425941,642829",634887
+968800,I have been catching up and have been doing homeworks but not tuning in. Will I be able to turn in the final project?,Data Engineering Zoomcamp,2022,"954016,167856,75919,36798,838013",954016
+688404,Could you please explain what code we should load to GitHub?,Data Engineering Zoomcamp,2022,"198661,629898,686577,3699,141765",3699
+63921,Is it just me or does the model have really bad accuracy and generates random images? I tested and identified cats as dogs.,Machine Learning Zoomcamp,2021,"754877,604487,912439,858915,425941",858915
+521365,Are we distant from what a data engineer’s day-to-day work looks like? What are the main differences?,Data Engineering Zoomcamp,2022,"75919,830918,337445,449040,131069",830918
+74423,How is the data engineering market in Berlin? How can someone land a DE job in Berlin?,Data Engineering Zoomcamp,2022,"159394,243026,838013,478083,296080",243026
+425250,"We used tf.keras.layers.GlobalAveragePooling2D in our model. What is the difference in using GlobalAveragePooling1D, 2D, and 3D in pooling layers?",Machine Learning Zoomcamp,2021,"200161,152693,478055,347048,912439",347048
+278678,"If you pickle load an object, are all the methods associated with that object also loaded?",Machine Learning Zoomcamp,2021,"772478,890166,214199,912439,655484",772478
+184224,How's ranking different from the regression model?,Machine Learning Zoomcamp,2021,"764907,548146,643810,934691,642829",934691
+492810,How many questions should be correct for each session in order to get the certificate?,Machine Learning Zoomcamp,2021,"643810,173078,604487,513382,32377",513382
+628071,"When Victoria said that we must use one of the two approaches for the project, what exactly are you talking about? Batch vs steam?",Data Engineering Zoomcamp,2022,"615971,432981,64848,654080,296080",654080
+924777,Regarding regularization – would it not be better to analyze the data model and remove redundant features?,Machine Learning Zoomcamp,2021,"642829,764907,939924,912439,641330",939924
+306291,We have from November 1 to November 8 to review other projects?,Machine Learning Zoomcamp,2021,"642829,380014,88031,912439,105368",88031
+51386,"For DBT, you organized the transformation as stage->processing->presentations. Is this architecture typically used or are there more layers?",Data Engineering Zoomcamp,2022,"392844,666820,337445,908368,851050",337445
+365438,When and why do you think the data engineering position started? We had ETL tools a long time ago but can we say that DE started there?,Data Engineering Zoomcamp,2022,"75919,449040,131069,478083,717763",717763
+481354,"In the GitHub page for homework 2, you mentioned to ingest NY taxi data for 2019-2021. In the homework 2 description, however, it's 2019-2020. Should it be until 2021 or 2020?",Data Engineering Zoomcamp,2022,"296080,131069,615971,432981,851050",851050
+519982,Is it possible to get email confirmation when submitting homework?,Machine Learning Zoomcamp,2021,"214199,782870,223605,984370,132688",132688
+539651,"What does it mean, “Feel free to submit PRs with links to your notes.”",Machine Learning Zoomcamp,2021,"214199,912439,878140,278395,200161",278395
+773259,"For the project on week 7, are we free to choose the dataset or is it provided by DataTalks.Club?",Data Engineering Zoomcamp,2022,"131069,296080,110700,403081,449040",403081
+927594,"In my project, I used a dataset for batch processing. To transform data that comes in batch I used DBT. Is it “bad” not to have a Spark part in my project?",Data Engineering Zoomcamp,2022,"159394,75919,136229,998091,131069",998091
+255098,Why didn't we use Streamlit instead of Flask?,Machine Learning Zoomcamp,2021,"347048,134714,169051,890166,306892",890166
+847743,"How to select an approach for cross validation? (k-folds, leave p out, stratified, etc.)",Machine Learning Zoomcamp,2021,"604487,754877,764907,912439,425941",764907
+922823,"Is there any reason, from a technical perspective, why you would rather choose Gunicorn compared to other server managers, like Uvicorn, for example?",Machine Learning Zoomcamp,2021,"373352,83369,754877,393030,425941",373352
+153722,How much time do we need to dedicate every week to successfully complete the course?,Data Engineering Zoomcamp,2022,"432981,862021,163271,296080,131069",163271
+248334,What is your opinion on learning Scala for Spark?,Data Engineering Zoomcamp,2022,"75919,141765,136229,181614,136400",181614
+161288,"I've learned many amazing things about data engineering from the Zoomcamp. May I ask, what are some areas and topics that have been left out of the scope that are also important?",Data Engineering Zoomcamp,2022,"151848,392844,75919,971586,296080",971586
+609514,"If I have Kafka running on Virtual Machine 1 and Spark streaming on Virtual Machine 2, will I just use the external IP to connect the cluster or are there any other settings?",Data Engineering Zoomcamp,2022,"75919,136229,204569,42794,131069",204569
+37636,Will you grade homework?,Machine Learning Zoomcamp,2021,"300376,373352,478055,347048,83369",83369
+521976,"Change the vector into a PIL image, maybe?",Machine Learning Zoomcamp,2021,"214199,912439,173078,481080,655484",655484
+829295,"For the base.model, the shape was 32x5x5x2048 before average pooling. I just need to know why 5x5. Did we specify something somewhere?",Machine Learning Zoomcamp,2021,"194806,204684,703640,439850,643810",204684
+336677,Why should the model be set as binary? Are there other options?,Machine Learning Zoomcamp,2021,"641330,878140,255748,912439,200161",255748
+389728,A minor side note: any reason why you display Slido questions sorted by popular and not by recent?,Data Engineering Zoomcamp,2022,"724668,243124,862021,615971,432981",243124
+414831,Do you use KDenlive for editing your videos?,Machine Learning Zoomcamp,2021,"827511,890166,419359,425941,912439",419359
+875350,How do we know if we can solve some particular problems by using machine learning?,Machine Learning Zoomcamp,2021,"912439,564469,641330,827511,243114",243114
+485539,Do we do EDA on the initial data frame or on df_full_train after splitting? What is the correct strategy?,Machine Learning Zoomcamp,2021,"673096,641330,425941,105368,64950",673096
+343788,I've been really enjoying learning throughout this course and I would like to continue after. Would you suggest formal education or just self-learning?,Data Engineering Zoomcamp,2022,"162388,545208,195145,198661,75919",545208
+26,Are there plans to write some articles on Medium related to this Zoomcamp? Articles from teachers and students?,Data Engineering Zoomcamp,2022,"131069,296080,432981,546791,862021",546791
+255794,"Is it necessary as a data scientist in the workplace to have expertise in end-to-end – from data collection, cleaning, modeling, until deployment?",Machine Learning Zoomcamp,2021,"596854,194806,88453,522491,214199",88453
+462683,How many project submissions were there this time?,Machine Learning Zoomcamp,2021,"641330,278395,214199,425941,599256",641330
+408575,From my research Spark can do what DBT can do. Can you use both Spark and DBT (ETLT) or what are the use cases where one is more preferable than the other?,Data Engineering Zoomcamp,2022,"75919,198661,478083,862021,604632",604632
+754721,Can you remind us of the prize for the first 100 in the leaderboard?,Machine Learning Zoomcamp,2021,"131536,347048,912439,642829,300376",131536
+814717,"During project review, will we be able to contact the project creator to ask questions, or is it anonymous?",Data Engineering Zoomcamp,2022,"666820,704244,136229,851050,843322",136229
+358976,"Can you clarify the difference between using Gunicorn or Waitress and plain Flask? I understand this is related to dev stuff, but I'm not sure.",Machine Learning Zoomcamp,2021,"604487,912439,214199,739537,754877",739537
+180745,Do you have any advice or a story about your friends who shifted from DBA to data engineer? I want to shift my career after five years of working as DBA to data engineer?,Data Engineering Zoomcamp,2022,"432981,861567,296080,75919,478083",861567
+993664,Is AUC 93% and F1 63 good or bad?,Machine Learning Zoomcamp,2021,"460382,641330,642829,425941,762237",762237
+23845,Why is a table in BigQuery called an external table?,Data Engineering Zoomcamp,2022,"996926,392844,449040,131069,403081",996926
+962622,How will the reviewers be assigned? Randomly?,Machine Learning Zoomcamp,2021,"912439,525898,642829,828550,105368",828550
+640576,Is there any threshold or some standards about how many features we can use to build a good model?,Machine Learning Zoomcamp,2021,"32377,580366,254116,547758,300376",580366
+991319,Any advice on how I could apply what I learned that the course? We will have a 3-week project at the end of the course. Could you suggest more project ideas?,Data Engineering Zoomcamp,2022,"296080,432981,628477,131069,75919",628477
+967036,Could we extend the project deadline by one day?,Machine Learning Zoomcamp,2021,"846462,641330,912439,40420,169051",846462
+536490,Is it sufficient to complete the final project to get the certificate for this course or one should also complete all the homework successfully to get better scores?,Data Engineering Zoomcamp,2022,"862021,766817,832418,110700,432981",832418
+905516,"When can we say to ourselves that we are junior or senior data engineers? Is there any scale of how we can know (Spark, Hadoop, certifications)?",Data Engineering Zoomcamp,2022,"110700,786074,131069,162388,296080",786074
+332401,"Can you please elaborate a bit on the project review part (how, when, etc.)?",Data Engineering Zoomcamp,2022,"131069,296080,432981,615971,780569",780569
+308905,Could you give us a breakdown of what is left in the course and when we're expected to finish?,Machine Learning Zoomcamp,2021,"157429,214199,754877,604487,912439",157429
+532718,How does one move from a junior data engineer to a senior data engineer and then to a lead engineer?,Data Engineering Zoomcamp,2022,"478083,615971,131069,296080,831512",831512
+561141,How are we expected to document model performance in case we use a competition dataset since test labels are not available and we have to submit predictions for score?,Machine Learning Zoomcamp,2021,"912439,525898,214199,302381,878140",302381
+866886,"How to get better at coding? I understand all your lectures, but when it comes to implementing in Python it takes quite a long time.",Machine Learning Zoomcamp,2021,"274012,425941,684306,214199,641330",684306
+907802,Would you say DBT is the next big thing in the data stack?,Data Engineering Zoomcamp,2022,"666820,64848,704244,54998,586825",54998
+607074,"I failed to deliver the homework so far, hence, I missed the deadline. Is it over for me?",Data Engineering Zoomcamp,2022,"198661,296080,666820,984603,862021",198661
+207697,"When converting from dataframes to NumPy arrays, is it better to use df.values or df.to_numpy()?",Machine Learning Zoomcamp,2021,"214199,912439,786913,596854,274012",786913
+766401,"Can we write an article, save it on GitHub and share on LinkedIn?",Machine Learning Zoomcamp,2021,"642829,641330,568519,912439,105368",568519
+804668,"If two numerical features are highly correlated between each other, shall we drop one of them?",Machine Learning Zoomcamp,2021,"300376,105368,380014,903950,912439",300376
+779420,"During the review, is it expected for us to try and install/run the code following instructions? Or is it fine to just review the documentation?",Data Engineering Zoomcamp,2022,"617661,36798,296080,432981,478083",617661
+456249,I have missed the current Zoomcamp (2022). Will there be another one in the near future?,Data Engineering Zoomcamp,2022,"184650,868860,461922,449040,478083",184650
+71944,What is the best strategy to update records on a parquet file or BigQuery? How about appending data to parquet files?,Data Engineering Zoomcamp,2022,"478083,75919,110700,34583,193489",34583
+118304,"Linux Mint works way better than Ubuntu. It is based on Ubuntu, but it is more user-friendly and better in many other ways.",Machine Learning Zoomcamp,2021,"425941,132467,642829,912439,83369",132467
+21580,"How important is Docker to use for data engineering? For example, installing Hadoop or Spark on Docker?",Data Engineering Zoomcamp,2022,"75919,110700,724668,131069,682464",682464
+781421,I want to understand peer project review for late joiners. How will it work?,Data Engineering Zoomcamp,2022,"296080,449040,469860,131069,432981",469860
+262845,"In cases of imbalanced datasets, when do we apply SMOTE/downsampling techniques – before splitting data or after?",Machine Learning Zoomcamp,2021,"912439,105368,242833,641330,516218",242833
+400574,There have been a couple of models of deployment you covered in the course. What is the preferred industry option? Is it Kubernetes through cloud?,Machine Learning Zoomcamp,2021,"105368,314135,604487,912439,425941",314135
+546056,How many models and how much parameter tuning are you expecting?,Machine Learning Zoomcamp,2021,"641330,554368,604487,340381,912439",554368
+647840,How many submissions were there this week?,Machine Learning Zoomcamp,2021,"912439,425941,105368,276086,604487",276086
+130446,What are some things that we should look into in order to select a good dataset?,Machine Learning Zoomcamp,2021,"214199,425941,126767,641330,912439",126767
+651883,Avro versus Parquet?,Data Engineering Zoomcamp,2022,"966706,449040,296080,75919,127707",127707
+173681,Is the use of a WSGI server like Gunicorn or Waitress still required for deployment or can we deploy Flask app directly on Cloud?,Machine Learning Zoomcamp,2021,"425941,467959,754877,599256,214199",467959
+272452,Can you please upload the live session recording and homework answers on GitHub?,Machine Learning Zoomcamp,2021,"425941,754877,912439,920089,173078",920089
+219140,"How does AWS Step Functions compare to Airflow? If I have my infrastructure fully on AWS, should I use Airflow? If so, what would be a good case?",Data Engineering Zoomcamp,2022,"296080,432981,72889,131069,75919",72889
+903753,"I will be extracting weekly Reddit data for my project and appending this to a data warehouse table. However, I'm not sure what kind of DBT transformations are required.",Data Engineering Zoomcamp,2022,"794038,615971,287399,432981,862021",287399
+756893,What are similar tools in AWS and Azure for DBT?,Data Engineering Zoomcamp,2022,"75919,34583,449040,131069,724668",724668
+325721,"If Kubernetes can spin up containers when needed, what is the use case for Terraform?",Data Engineering Zoomcamp,2022,"686577,287399,478083,75919,131069",686577
+501033,"In the original plan, the project was going to start this week for three weeks. What do you think is going to be more or less the current plan for the Zoomcamp?",Data Engineering Zoomcamp,2022,"349959,296080,724668,36798,131069",349959
+210663,How much time do we have to submit the final project?,Data Engineering Zoomcamp,2022,"478083,578115,75919,159394,110700",578115
+264736,Consider train data for which some validation needs to be separated for validation. Should EDA be done on the entire train or after splitting into validation?,Machine Learning Zoomcamp,2021,"655484,597692,912439,360539,134714",597692
+97558,Is there a hash tag or something similar to find the public learning contents of others?,Machine Learning Zoomcamp,2021,"912439,525898,928855,641330,322444",928855
+569455,"With respect to encoding, should we encode after splitting or split after encoding the entire dataset?",Machine Learning Zoomcamp,2021,"774098,311710,912439,641330,105368",311710
+523812,Do you know any literature for testing in data pipelines?,Data Engineering Zoomcamp,2022,"724668,42794,75919,296080,432981",296080
+684005,Have you ever seen a data engineering position that required Spark or Kafka?,Data Engineering Zoomcamp,2022,"666820,568911,754651,141765,159394",568911
+617332,What is the deadline for the midterm project?,Machine Learning Zoomcamp,2021,"425941,105368,325935,912439,525898",525898
+951125,Can you please make a video on Docker?,Data Engineering Zoomcamp,2022,"296080,971755,131069,478083,432981",971755
+617031,Any guidance on how many *.py files should a notebook be broken down into when deploying?,Machine Learning Zoomcamp,2021,"912439,604487,599256,827511,596854",599256
+722003,Are we planning to touch on MLOps topics here?,Data Engineering Zoomcamp,2022,"766817,131069,615971,409133,862021",409133
+256059,Is it possible to have the ETL process but for data lakes? Or ETL has to be to a data warehouse and ETL to a data lake?,Data Engineering Zoomcamp,2022,"862021,75919,198661,920712,54998",920712
+135493,Students will post their project’s code to public GitHub repos. Will the projects change for the next Zoomcamp run?,Data Engineering Zoomcamp,2022,"131069,136229,377708,289652,75919",377708
+154617,Do you use unsupervised learning in daily work? Is it much more difficult than traditional supervised machine learning?,Machine Learning Zoomcamp,2021,"425941,764907,510783,827511,83369",510783
+665253,How will the code review routine for midterm projects be organized? Will all the users be involved in this process?,Machine Learning Zoomcamp,2021,"214199,548146,655484,229264,345132",229264
+107340,Should I include code in the homework solution?,Machine Learning Zoomcamp,2021,"425941,105368,641330,642829,764907",642829
+288251,Can we see a leaderboard? Just to understand if I'm right or not in my answers.,Data Engineering Zoomcamp,2022,"75919,780406,55591,615971,724668",615971
+882487,"Will there be summaries of the videos, like course notes, Jupyter notebooks, etc.?",Data Engineering Zoomcamp,2022,"384801,794038,766817,666820,110700",766817
+403504,When do you use functional versus sequential?,Machine Learning Zoomcamp,2021,"596854,754877,214199,694057,604487",694057
+127595,Are there any points to keep in mind when augmenting images (ratio of generated to original images)?,Machine Learning Zoomcamp,2021,"244430,604487,596854,912439,754877",244430
+60944,How did you load the data to the S3 bucket from the NY data website?,Data Engineering Zoomcamp,2022,"843322,95645,195145,198661,75919",95645
+692365,Do the model building features in BigQuery or AWS or Azure provides efficient capabilities as compared to building machine learning models ab initio on Jupyter?,Data Engineering Zoomcamp,2022,"131069,615971,432981,754651,296080",754651
+65141,"If there is an unbalanced dataset, do we need to add parameter class_weight to the logistic regression model? How to add it properly?",Machine Learning Zoomcamp,2021,"425941,105368,827511,380014,434596",434596
+76984,What is a data mesh and will it be covered in this course?,Data Engineering Zoomcamp,2022,"36798,615971,75919,838013,198661",838013
+331996,"Is it always good practice to put data in a data lake before putting it into a data warehouse, like we have done in the course exercises?",Data Engineering Zoomcamp,2022,"204569,624888,198661,131069,75919",624888
+547171,I can build and run the Docker container but then it just switches me to root in /app. I'm not sure what to do next. Any suggestions?,Machine Learning Zoomcamp,2021,"274012,641330,214199,912439,940532",940532
+772628,Will I be able to kick-start an entire data pipeline including Airflow by using just Terraform (by enabling Docker provided in Terraform)?,Data Engineering Zoomcamp,2022,"75919,131069,371990,843322,36798",843322
+953508,Would you consider displaying the question submitted to Slido based on arrival time?,Data Engineering Zoomcamp,2022,"704244,75919,64848,574914,478083",574914
+626167,Do we have to evaluate all models to find the final one?,Machine Learning Zoomcamp,2021,"134714,596854,903950,684306,32377",903950
+274935,Do you need to upload the Docker image to the hub?,Machine Learning Zoomcamp,2021,"912439,300376,242833,64950,604487",604487
+9484,How do you handle imbalance in datasets?,Machine Learning Zoomcamp,2021,"912439,425941,790919,105368,641330",790919
+661308,How can we train on encoded features (DictVectorizer or OneHotEncoder) using ‘sparse=True’? Are there such use cases?,Machine Learning Zoomcamp,2021,"912439,604487,878140,937167,150648",150648
+817585,We looked at quite simple examples using DBT. What about complex business logic?,Data Engineering Zoomcamp,2022,"9861,843322,449040,193489,478083",478083
+651626,Do you know of any examples/code where object-oriented programming is applied to data engineering?,Data Engineering Zoomcamp,2022,"432981,296080,55591,596763,131069",596763
+932061,"How to go about choosing the regression models and the corresponding parameters that we feed in as arguments (such as C, alpha, etc.)? How can we learn more about this?",Machine Learning Zoomcamp,2021,"169051,596854,739571,912439,32377",739571
+246464,"In the project, if we use Spark for transformation, can/should we embed it into Airflow?",Data Engineering Zoomcamp,2022,"195145,131069,75919,432981,199659",199659
+210828,What are the must-have resources/materials for beginners in ML/AI?,Machine Learning Zoomcamp,2021,"604487,596854,623076,754877,214199",623076
+630905,"Can you explain more about what JSON is, when to use POST, and more on the general use cases for Flask?",Machine Learning Zoomcamp,2021,"912439,478055,169051,642829,641330",169051
+29730,I have some experience in data engineering. Are we planning to focus on writing good unit test cases?,Data Engineering Zoomcamp,2022,"337445,296080,145810,432981,704244",145810
+800370,How relevant is Terraform in a data engineering job? Would getting the Terraform Associate Certificate make sense for a junior DE?,Data Engineering Zoomcamp,2022,"449040,75919,432981,127707,296080",449040
+677251,What if our data doesn't require further transformation once it's in a data warehouse? Do we still need to use DBT?,Data Engineering Zoomcamp,2022,"843322,141765,432981,296080,193489",193489
+246449,I couldn't go ahead with the model deployment steps. Are the first steps to saving the model adequate to pass the midterm?,Machine Learning Zoomcamp,2021,"340381,173078,425941,800512,827511",800512
+413532,"I had issues with the Airflow “Docker-compose up” command, but after removing the triggerer, it appears to have worked. Could you explain why that could be?",Data Engineering Zoomcamp,2022,"159394,270018,862021,127707,704244",270018
+289815,"For the week 3 homework, we need “yellow taxi” data for 2019 and 2020, and “for hire vehicles” only for 2020?",Data Engineering Zoomcamp,2022,"296080,742537,75919,131069,110700",742537
+865293,You should try Linux Mint as well.,Machine Learning Zoomcamp,2021,"754877,642829,278395,196917,425941",196917
+378821,I don't trust others to give me good scores on the project.,Machine Learning Zoomcamp,2021,"642829,380014,322444,912439,425941",322444
+700440,"I could get through the homework, but I could not go around setting up the environments.",Machine Learning Zoomcamp,2021,"425941,516218,717437,641330,912439",717437
+157155,Do you need to speak German to work as a DE in German companies?,Data Engineering Zoomcamp,2022,"159394,136229,951625,42794,75919",951625
+289226,Do articles on our own website work for the final 20 pt article?,Machine Learning Zoomcamp,2021,"878140,173078,604487,134714,276086",878140
+509287,"With different thresholds, do we also just do distribution of target class? For churn data, churn and non-churn are not 50/50. I think non-churn is more than churn.",Machine Learning Zoomcamp,2021,"604487,596854,425941,240572,214199",240572
+796248,Is there a preference of OS (operating system) to use with this course?,Data Engineering Zoomcamp,2022,"296080,131069,615971,432981,159178",159178
+644385,Is there a limit for the number of options in categorical values for one hot encoding implementation?,Machine Learning Zoomcamp,2021,"706021,744169,214199,754877,425941",744169
+482291,Can you explain how Docker works internally? I was impressed by it. It is like the evolution of traditional virtual machines but not sure how it is possible.,Machine Learning Zoomcamp,2021,"422297,173078,443865,207316,425941",443865
+260110,"Can you explain more on different Flask modules, when to use Flask and what more to learn?",Machine Learning Zoomcamp,2021,"134714,157200,878140,912439,204684",157200
+485693,Any suggestions on how to get started with cloud?,Machine Learning Zoomcamp,2021,"214199,564293,425941,641330,912439",564293
+110525,"Is it okay if two guys work on the same dataset, but individually?",Machine Learning Zoomcamp,2021,"827511,340381,912439,40420,105368",40420
+246875,Is it okay to follow the videos without fully understanding the why behind them? Sometimes I don't understand line by line. Anything I can do to supplement?,Data Engineering Zoomcamp,2022,"75919,754651,42794,136229,298345",298345
+199903,In what scenario should I use a database like Postgres instead of something like the Google Cloud Storage data lake?,Data Engineering Zoomcamp,2022,"75919,545395,971586,131069,110700",545395
+810877,Could you create two Slido sessions – one for soft skills/resources/career questions and one for course content?,Machine Learning Zoomcamp,2021,"169051,912439,276086,325935,736818",736818
+371330,Do you have any scripts to process Google Forms?,Machine Learning Zoomcamp,2021,"912439,325935,425941,604487,685530",685530
+730701,"When choosing datasets for the project, what are some things we should consider? Either to get the most out of the project or to avoid unnecessary headaches?",Data Engineering Zoomcamp,2022,"198661,862021,843322,64848,55591",55591
+283772,"Just wondering, before the deadline extension, how many project submissions were there?",Data Engineering Zoomcamp,2022,"75919,794038,195145,159394,629898",195145
+28019,Can the ports on host and the container be different using Flask and Docker? Could you please give a hint on where exactly the port changes would be reflected?,Machine Learning Zoomcamp,2021,"425941,641330,857258,214199,105368",857258
+364039,Is KNN unsupervised learning?,Machine Learning Zoomcamp,2021,"912439,604487,214199,119630,596854",119630
+330648,Any tips for working with really large datasets?,Machine Learning Zoomcamp,2021,"604487,764907,560772,912439,596854",560772
+540630,Is it possible to increase the deadline for the project? I might struggle with just two weeks.,Data Engineering Zoomcamp,2022,"478083,75919,159394,365812,193489",365812
+655573,Will the course prepare us for taking on a role as a data engineer?,Data Engineering Zoomcamp,2022,"110700,432981,505463,296080,131069",505463
+693333,"Is the regularization strategy of adding small values to the main diagonal of the feature matrix related to ridge, lasso, or other regularization techniques?",Machine Learning Zoomcamp,2021,"214199,641330,912439,878140,782118",782118
+70729,"How can I set execution_date in Airflow to the past? For example, to January 2019.",Data Engineering Zoomcamp,2022,"296080,75919,615971,177008,110700",110700
+812687,"In deployment, what do you mean by “monitoring the quality, maintainability, and scalability of the model”?",Machine Learning Zoomcamp,2021,"754877,604487,564469,425941,214199",564469
+206263,Any good streaming datasets apart from Twitter?,Data Engineering Zoomcamp,2022,"853241,777459,75919,838013,131069",853241
+494484,"Are data engineers expected to know Redshift, Snowflake, and BigQuery and be able to integrate multiple data warehouses, or is it sufficient to know one of them?",Data Engineering Zoomcamp,2022,"131069,843322,862021,432981,775298",775298
+289197,"At OLX, do you work only in the data science team, or do you also leverage your SWE experience from time to time?",Machine Learning Zoomcamp,2021,"481851,134714,373352,347048,32377",481851
+750619,What do you use for recording videos?,Data Engineering Zoomcamp,2022,"171982,198661,131069,75919,195145",171982
+817861,Can we use Azure blob storage instead of AWS to transfer to GCP?,Data Engineering Zoomcamp,2022,"966706,666820,392844,64848,95645",64848
+453567,In between Spark and Airflow there is a different machine (VM) so the DAG file must be able to do Spark submit for executing the Spark job?,Data Engineering Zoomcamp,2022,"289652,110700,131069,177008,75919",289652
+823354,Can you quickly summarize how to upload data to Google Cloud Platform without using Airflow? And is there a way to transfer data from GCP Cloud Storage to BigQuery without Airflow?,Data Engineering Zoomcamp,2022,"406643,337445,392844,478083,449040",406643
+839870,It seems that the code that I reviewed is copied. What do I do in this case?,Machine Learning Zoomcamp,2021,"596854,912439,169051,993839,360539",993839
+647840,How many submissions were there this week?,Machine Learning Zoomcamp,2021,"912439,105368,964992,604487,425941",964992
+868674,"I'm starting week three now, feeling left behind and dumb.",Data Engineering Zoomcamp,2022,"296080,761141,666820,131069,75919",761141
+677526,Will some scoring system be available for the midterm project?,Machine Learning Zoomcamp,2021,"425941,439850,912439,105368,276086",439850
+79775,"For hyperparameter tuning, should I be tuning using the full train and test dataset?",Machine Learning Zoomcamp,2021,"754877,214199,380014,377027,425941",377027
+436290,What do you think about this 2021 data engineering roadmap? Is this a good guideline to follow?,Data Engineering Zoomcamp,2022,"75919,195145,110700,131069,504339",504339
+612556,It feels very difficult to follow along. How should I approach this course?,Data Engineering Zoomcamp,2022,"110700,412893,296080,432981,131069",412893
+457087,Should we be using cross-validation?,Machine Learning Zoomcamp,2021,"481526,425941,641330,912439,105368",481526
+74277,Is time not a categorical variable because it has only 11 values?,Machine Learning Zoomcamp,2021,"83369,88453,754877,984370,642829",984370
+173586,What is the number of images generated after augmentation? Can we configure it?,Machine Learning Zoomcamp,2021,"347048,912439,105368,171761,169051",171761
+522955,What do you recommend in terms of building on projects further (Jupyter -> Python -> Docker) or leave Jupyter notebooks? Is Jupyter ever used in day-to-day work?,Machine Learning Zoomcamp,2021,"642829,641330,912439,393128,340381",393128
+356091,I propose designing total cloud-based automatic pipelines using GCP (using GCP tools) for the project. How do I address reproducibility in this case?,Data Engineering Zoomcamp,2022,"151848,794038,341839,449040,75919",151848
+384529,When is it preferred to use MAE metric instead of RMSE?,Machine Learning Zoomcamp,2021,"105368,516218,425941,764907,912439",516218
+17767,Do we need to scale numerical features for logistic regression?,Machine Learning Zoomcamp,2021,"40420,827511,173078,937167,214199",827511
+766947,How big is the project? Should I take some time off from work during that week?,Data Engineering Zoomcamp,2022,"704244,449040,75919,478083,116379",116379
+364057,Does an article mean a published one or a LinkedIn post?,Machine Learning Zoomcamp,2021,"596854,169051,736818,606126,547758",606126
+436262,Do you have plans for another Zoomcamp in the near future?,Data Engineering Zoomcamp,2022,"131069,195145,611684,75919,432981",611684
+300903,Where does Terraform come into the picture? I haven't used it so far since I installed it in week 1.,Data Engineering Zoomcamp,2022,"449040,184650,744057,296080,131069",744057
+451077,When to use a test dataset?,Machine Learning Zoomcamp,2021,"134714,736818,912439,604487,249148",249148
+391097,"I have applied min-max normalization to the data set, but I’m not sure how inference can be made for a single input transformation.",Machine Learning Zoomcamp,2021,"642829,300376,912439,551167,604487",551167
+705062,"Can you tell us the average number of hours to do homework? Today, I spent a lot of time more than usual so I want to know, please.",Machine Learning Zoomcamp,2021,"360539,604487,596854,214199,912439",360539
+986734,There are many ways to write codes. Are short codes better in actual jobs as a machine learning beginner? Should I focus on writing concise codes? What is production code?,Machine Learning Zoomcamp,2021,"604487,754877,641330,425941,925030",925030
+256287,Any project suggestions for Spark?,Data Engineering Zoomcamp,2022,"75919,36798,287399,646383,131069",646383
+660024,"For the project, how long will be the timeframe to complete it?",Data Engineering Zoomcamp,2022,"162388,36798,75919,250778,545395",162388
+704688,Do you know about any equivalent to Keras for PyTorch?,Machine Learning Zoomcamp,2021,"194806,596854,214199,989686,173078",989686
+467780,What is the program that you used for a whiteboard during the course? I find it really useful to practice my thoughts for interviews.,Machine Learning Zoomcamp,2021,"425941,547758,169051,214199,360993",360993
+864931,Can you collaborate with startups so we can get a chance of an internship after the bootcamp?,Machine Learning Zoomcamp,2021,"596854,194806,547758,360539,214199",596854
+121599,"The theory and homework were really challenging to me as a data scientist. I'd like to do stats, ML, math and skip the Kubernetes part. Would that be enough to find a data scientist job?",Machine Learning Zoomcamp,2021,"912439,276086,345132,105368,214199",345132
+327131,Do we need to clean the data for homework? There are some values with leading/trailing spaces.,Data Engineering Zoomcamp,2022,"136400,843322,647484,984603,686577",647484
+622805,Do we have to first inform you about the dataset we're using?,Machine Learning Zoomcamp,2021,"200161,214199,717187,764907,754877",717187
+151525,"If it's okay to ask, I uploaded yellow taxi data, supposedly according to Airflow, but some of them didn't upload completely. Do I need to redo this?",Data Engineering Zoomcamp,2022,"296080,752792,538859,432981,131069",538859
+322429,"Is there any way to know exactly how many bins are needed to be set in histplot to make a proper visualization of the data (price var on homework 2, in this case)?",Machine Learning Zoomcamp,2021,"204684,214199,912439,481080,300376",481080
+755801,Any help with Docker to work in Windows via WSL2 backend? I always get an error with exit code 1.,Machine Learning Zoomcamp,2021,"196096,641330,278395,214199,425941",196096
+531046,Why Flask and not FastAPI?,Machine Learning Zoomcamp,2021,"32377,782870,706021,651754,254116",706021
+95184,"If I cannot finish my project 1 on time, but still want feedback, can I submit my incomplete project?",Machine Learning Zoomcamp,2021,"986368,214199,105368,274012,912439",986368
+219904,Why did we first remove the target variable (‘price’) and then applied the log transformation to the price variable?,Machine Learning Zoomcamp,2021,"425941,397291,937167,878140,827511",397291
+502103,I use Google Colab to submit homework 1. Can I use it for the rest of this program or is it recommended to set up a local environment in Linux?,Machine Learning Zoomcamp,2021,"596854,83369,234334,706021,604487",234334
+94326,Why don't we do feature engineering before modeling?,Machine Learning Zoomcamp,2021,"523285,425941,340381,642829,380014",523285
+901131,Will the certificate be issued individually right after the project is peer reviewed? Or will it be issued on a single day after a specific deadline?,Data Engineering Zoomcamp,2022,"493731,136400,75919,141765,984603",493731
+108511,"Do I do EDA first and then split data or split the data and then EDA? Which data do I need in order to do EDA? Train, full train, full data?",Machine Learning Zoomcamp,2021,"32377,194806,548146,169051,525898",548146
+608583,"I'm thinking of using AWS Redshift, EC2, and S3 for the project. Are there concepts similar to GCP?",Data Engineering Zoomcamp,2022,"629898,75919,449040,159394,193489",629898
+310900,Should we use Spark for files saved in Google Cloud Storage? Where should the output of Spark queries be saved? How could we visualize the Spark output?,Data Engineering Zoomcamp,2022,"245146,392844,145810,666820,704244",666820
+71732,"How are restartability and incremental loads usually made in BigQuery? In Redshift, there are stored procedures. What is the approach in BigQuery?",Data Engineering Zoomcamp,2022,"797668,449040,930549,296080,392844",930549
+585869,"I’m using Docker setup locally, so downloading lots of data for week 3 is not possible. Should I set up everything on the GCP VM or use a transfer service?",Data Engineering Zoomcamp,2022,"177008,198661,843322,862021,204569",177008
+436482,Is there any plan for some hands-on NoSQL database?,Data Engineering Zoomcamp,2022,"794038,586825,704244,930549,843322",794038
+33653,"If my post on social networks doesn't get any reaction, does this affect my score in the end? I do care about being on the leaderboard.",Data Engineering Zoomcamp,2022,"277928,296080,432981,75919,449040",277928
+291519,"Even if you don't turn the project in within two weeks, can we still get our project reviewed and some feedback?",Data Engineering Zoomcamp,2022,"198661,862021,64848,868860,956576",868860
+385921,Is there a need to use Spark for our project if the size of data is not big? Can't we just do the whole orchestration and have tables in the data warehouse with Airflow?,Data Engineering Zoomcamp,2022,"766817,432981,102126,392844,704244",102126
+983793,I am having a hard time differentiating between a data warehouse and a data lake. Could you please quickly recap it?,Data Engineering Zoomcamp,2022,"766817,296080,432981,940334,131069",940334
+332779,"Is it worth a plus point, if I share my experience on my personal public tech blog instead of social media?",Machine Learning Zoomcamp,2021,"811487,214199,754877,641330,425941",811487
+161609,Is there a way to visualize what the images become after passing through the filters?,Machine Learning Zoomcamp,2021,"254018,105368,274012,878140,912439",254018
+314363,"Is there a good resource or website to learn about the logistics of implementing a pipeline for someone? A good server to use, cost, etc.",Data Engineering Zoomcamp,2022,"159394,984603,499542,75919,131069",499542
+900873,How can I earn internships and full-time offers for a data engineering role as a fresher?,Data Engineering Zoomcamp,2022,"75919,449040,620250,6416,908368",620250
+176478,"Any good references on how Conda, Git, Pipenv, Flask, Gunicorn, and Docker work together?",Machine Learning Zoomcamp,2021,"126767,764907,641330,642829,643810",643810
+273744,I'm doing a master's in computer science and aiming to be a machine learning engineer. I want to prepare for the job market. Is this course right for me or an overkill?,Data Engineering Zoomcamp,2022,"747048,110700,449040,131069,392844",747048
+112142,Do you use any data science project structure or template (like Cookiecutter and so on) for storing projects in real tasks?,Machine Learning Zoomcamp,2021,"169051,912439,373352,747232,274012",747232
+236395,What should the ideal pipeline look like? How to connect everything and make it reproducible with minimal effort? Is there an example project anywhere?,Data Engineering Zoomcamp,2022,"42794,204569,862021,167856,159394",167856
+485721,Shouldn't we automatically scale the features before using the model?,Machine Learning Zoomcamp,2021,"596854,717187,879860,912439,194806",879860
+981814,Just wondering if Spark could also handle the streaming data like Kafka does. I see Spark also has Spark Streaming. Could I also use that to substitute Kafka?,Data Engineering Zoomcamp,2022,"141765,75919,127707,204569,634036",634036
+178488,How will we be able to review others’ projects if they work with Ubuntu and I use Windows? I won't be able to run their code. What should we do in this case?,Machine Learning Zoomcamp,2021,"912439,641330,173078,547758,214199",547758
+155161,Airflow seems to be very resource-intensive for running a couple of scripts. What kind of workflows benefit greatly from it?,Data Engineering Zoomcamp,2022,"159394,193489,136400,141765,198661",136400
+409915,"If we have already submitted our project before the deadline, will we be able to begin peer reviewing right away, or do we need to wait until after the deadline?",Data Engineering Zoomcamp,2022,"843322,110700,296080,131069,383446",383446
+79832,Is homework 3 going to require students to submit a public code URL or not?,Data Engineering Zoomcamp,2022,"966706,110700,296080,886326,75919",886326
+807443,Why were you reluctant to use Spark ML LIB? Bad experience? What are you using for building machine learning for big data?,Data Engineering Zoomcamp,2022,"131069,704244,296080,843322,545113",545113
+220332,"Are there data engineer freelancing jobs (remote worldwide) or projects, as compared to web software engineering?",Data Engineering Zoomcamp,2022,"148173,296080,969531,110700,75919",148173
+282338,How do the following techniques compare for hyperparameter tuning? 1) Tuning features singly 2) Tuning them together using GridSearch?,Machine Learning Zoomcamp,2021,"196532,105368,912439,561046,641330",561046
+809787,"Will there be a book based on DE Zoomcamp, like the book on ML Zoomcamp?",Data Engineering Zoomcamp,2022,"127707,200835,862021,75919,159394",200835
+476171,What is a driver node in Spark? Is it a master node or some other node that is dedicated for in-memory processing?,Data Engineering Zoomcamp,2022,"296080,432981,615971,393833,131069",393833
+869361,Should the HW we hand in be SQL files? I put in an .md file.,Data Engineering Zoomcamp,2022,"75919,956576,198661,838013,205621",205621
+762388,"What are data models that we should use for warehousing? Star schema, Data Vault 2.0... What's the most “relevant” nowadays?",Data Engineering Zoomcamp,2022,"110700,797668,55591,131069,296080",797668
+288843,"Will you be creating a Top 100 leaderboard that you talked about in the first livestream? In the last livestream, you said you don't have permissions to publish names.",Machine Learning Zoomcamp,2021,"173078,754877,380014,457354,214199",457354
+286593,"The homeworks will get scored and the final project will also get a score. If you do not do the homework, you might not be on the leaderboard, but you will still get the certificate. Is that correct?",Data Engineering Zoomcamp,2022,"432981,127707,951625,615971,138367",138367
+908860,I'm a data scientist but would like to learn more about data engineering. Is this the right place for me?,Data Engineering Zoomcamp,2022,"198661,36798,785562,195145,64848",785562
+663501,Will there be a certificate at the end? Does this require our end project to be validated?,Data Engineering Zoomcamp,2022,"127707,204569,666820,141765,375930",375930
+560178,"Can we somehow learn how many points (for homework, etc.) we currently have?",Machine Learning Zoomcamp,2021,"912439,373352,276086,214199,489731",489731
+830729,Have you ever had issues dealing with hype? How do you mitigate a hype mindset in the workplace?,Data Engineering Zoomcamp,2022,"984603,478083,704244,432981,586825",586825
+217906,Do you think most of us have a grip of Airflow now? The most difficult part of the camp is over?,Data Engineering Zoomcamp,2022,"131069,965735,75919,36798,198661",965735
+124395,"If I want to do feature engineering (adding a new categorical feature) and random undersampling to balance my data, which process should I do first?",Machine Learning Zoomcamp,2021,"604487,525898,912439,754877,872175",872175
+561335,How can I know my homework score after submission?,Machine Learning Zoomcamp,2021,"912439,425941,673779,754877,604487",673779
+164952,"What do you think about Apache Hop? It's shiny, I know.",Data Engineering Zoomcamp,2022,"811052,110700,449040,75919,478083",811052
+306216,Does a data engineer need to know algorithms and data structures? Some data engineers still face software engineering tests in tech interviews.,Data Engineering Zoomcamp,2022,"838013,131069,287399,432981,75919",432981
+700367,"As a part of a deliverable, we expect the peer evaluator to download/clone the Git repo, build a Docker image, and run a Docker container in local/host cloud?",Machine Learning Zoomcamp,2021,"912439,306892,642829,839942,214199",839942
+57253,Can we use something else besides GCP? Any recommendations?,Data Engineering Zoomcamp,2022,"296080,131069,449040,75919,9861",9861
+500614,How difficult do you expect the course to be in the following weeks? I’m wondering if I need to allocate more time for the course. For me week 1 was 12 hours and week 2 was 10 hours.,Data Engineering Zoomcamp,2022,"615971,131069,195145,75919,64697",64697
+519118,AWS datasets are already in S3 bucket. Can we bring it to Redshift or do we need to bring it to our own bucket first?,Data Engineering Zoomcamp,2022,"478083,75919,131069,167856,956576",956576
+95798,I read in a book about the tran-dev set partition. Do you know what the purpose of this additional partition of the dataset is and when this should  be applied?,Machine Learning Zoomcamp,2021,"373352,912439,642829,134714,191857",191857
+507893,Can we impute missing data before splitting the data? What if I wanted to impute? I need to look at the distribution and then it is data snooping.,Machine Learning Zoomcamp,2021,"641330,764907,912439,642829,574881",574881
+919270,How close to your usual data engineering role are the workforce demonstrated? It seemed like you were not used to Docker Compose with Airflow. Is it rarely used?,Data Engineering Zoomcamp,2022,"838013,296080,75919,432981,862021",862021
+579826,What are the best practices to ingest data at scale? For example a log file getting created every minute and an API. What would you guys use?,Data Engineering Zoomcamp,2022,"110700,432981,75919,697507,131069",697507
+660910,"How are restartability and incremental loads usually made in BigQuery? I'm familiar with Redshift, where it can use a stored procedure to chain steps.",Data Engineering Zoomcamp,2022,"412893,449040,908368,229781,615971",229781
+289497,I'm using Jupyter on VSCode directly with plugins rather than running a Jupyter server or using a web browser. Any cons to that approach?,Machine Learning Zoomcamp,2021,"200161,531532,754877,274012,912439",531532
+790837,"What do we need to submit for the midterm project? Data, code, deployment files, etc.?",Machine Learning Zoomcamp,2021,"214199,173078,173681,169051,912439",173681
+211770,"In the train.py, we train the model and save to disk. Is it required to show the score on validation data, test data of the models and the script?",Machine Learning Zoomcamp,2021,"912439,596854,380014,274012,214199",380014
+872865,What do you expect as a submission in the project? I’m assuming notebooks showing EDA and data pre-processing and training script. Anything else?,Machine Learning Zoomcamp,2021,"380014,105368,827511,912439,754877",912439
+31034,"Do we need to have features on the same scale for linear regression? (For example, if engine horsepower is between 1 and 100, but mileage is between 100 and 10 000 – do we need to normalize both?)",Machine Learning Zoomcamp,2021,"214199,643810,754877,547758,852249",852249
+619694,"If we use GridSearchCV for hyperparameter tuning, do we still use the validation dataset or do we use the full train dataset?",Machine Learning Zoomcamp,2021,"827511,641330,912439,425941,393030",393030
+885096,I think I read somewhere that there will be a MLOps Zoomcamp after this one. Am I right? Are those who took Data Engineering Zoomcamp in good condition to go to the MLOps Zoomcamp?,Data Engineering Zoomcamp,2022,"131069,843322,449040,164801,136400",164801
+103222,Is it necessary for junior data scientists to learn the model deployment stages and deep learning?,Machine Learning Zoomcamp,2021,"105368,425941,641330,912439,659528",659528
+819272,Any tips to learn Linux?,Machine Learning Zoomcamp,2021,"194806,596854,214199,306892,717187",214199
+299077,"For the project, do we need to orchestrate everything with Airflow? Or can we use Airflow in some parts and then do the rest “manually”?",Data Engineering Zoomcamp,2022,"432981,838013,619776,296080,862021",619776
+235267,What is the scope of the two projects to be developed in the course?,Machine Learning Zoomcamp,2021,"200161,841445,300376,764907,641330",841445
+292599,Can you quickly run through the difference between an external table and a materialized table?,Data Engineering Zoomcamp,2022,"296080,449040,404476,724668,131069",404476
+96196,Do you think it's necessary to have some basic knowledge in Kubernetes in data engineering?,Data Engineering Zoomcamp,2022,"296080,36798,75919,131069,287399",36798
+172850,Can we use PyTorch instead of TensorFlow?,Machine Learning Zoomcamp,2021,"774098,912439,214199,641330,425941",774098
+342232,How can I practice writing codes from formulas better?,Machine Learning Zoomcamp,2021,"912439,655484,214199,460382,105368",460382
+688268,"What would be the next biggest step for DBT, in your opinion, in terms of deployment?",Data Engineering Zoomcamp,2022,"296080,195145,75919,942864,131069",942864
+539368,Is there any way to collate all the frequently asked questions into a knowledge repository so that it's easier to self-help in troubleshooting issues?,Data Engineering Zoomcamp,2022,"198661,296080,234073,862021,432981",234073
+487821,What are the most important skills for a new analytics engineer to master other than SQL?,Data Engineering Zoomcamp,2022,"75919,64848,131069,838013,198661",75919
+605034,"If it's feasible, could you provide some insights on hypothesis testing and a use case that could be referred to in order to understand implementation?",Machine Learning Zoomcamp,2021,"596854,173078,214199,425941,571709",571709
+707232,I got to know about this course today. Is it possible for me to begin now?,Data Engineering Zoomcamp,2022,"449040,859650,478083,75919,296080",859650
+546206,Do we have to use infrastructure as code tools or can we set up a data warehouse with UI?,Data Engineering Zoomcamp,2022,"615971,131069,75919,619852,449040",619852
+478927,Can test-driven development be applied to machine learning?,Machine Learning Zoomcamp,2021,"200161,380014,827511,425941,223605",223605
+669235,How can I deploy Airflow on Kubernetes? Is there a Kubernetes operator for Airflow?,Data Engineering Zoomcamp,2022,"245146,36798,478083,131069,75919",245146
+841549,What should we do if certain model results are not as great as we think? Is there a requirement for model outcome data?,Machine Learning Zoomcamp,2021,"641330,642829,425941,912439,478055",478055
+767575,How do we know if the homework was accepted?,Data Engineering Zoomcamp,2022,"75919,131069,384801,432981,110700",384801
+157063,How many hours do you recommend to invest in the course?,Machine Learning Zoomcamp,2021,"214199,643810,345132,642829,152693",152693
+169524,Can you please clarify where to use from_logits=True?,Machine Learning Zoomcamp,2021,"194806,214199,105368,641330,912439",194806
+261050,What is a landing zone?,Data Engineering Zoomcamp,2022,"296080,198661,565439,615971,36798",565439
+515361,"For someone who wants to now apply for data engineering jobs after the course, what else do you recommend? SQL, Python coding, AWS/GCP in depth, etc.?",Data Engineering Zoomcamp,2022,"136229,270018,145810,75919,416472",416472
+635220,Are there any datasets that are not allowed?,Machine Learning Zoomcamp,2021,"754877,347048,547758,214199,163456",163456
+328767,Will the project involve deployment using Flask or Django?,Machine Learning Zoomcamp,2021,"254116,522491,134714,153957,194806",153957
+543226,I want to know the theory behind machine learning. Could you recommend a book or course that covers that part?,Machine Learning Zoomcamp,2021,"360539,878140,200161,214199,347810",347810
+84357,How important are certificates? I am unable to complete the course the course due to work pressure. Can I do it on my own pace?,Data Engineering Zoomcamp,2022,"75919,36798,588990,296080,993199",588990
+794086,Is randomizing initial weights a good strategy to get better results and reproducibility?,Machine Learning Zoomcamp,2021,"912439,207165,105368,924163,204684",924163
+587026,"How do you override the schema of parquet files in BigQuery once stored in cloud storage? It wasn’t working for me, but CSV was easy.",Data Engineering Zoomcamp,2022,"75919,131069,238126,724668,110700",238126
+409807,"I understand that there is a growing importance on data cataloging. Do you think it's beneficial to put something together for data cataloging tools, OpenMetadata, etc.?",Data Engineering Zoomcamp,2022,"594349,75919,36798,64848,131069",594349
+412285,I just came across this course. What is the best approach to take this course? I'm late to join the course and it seems like there are some submission deadlines.,Machine Learning Zoomcamp,2021,"425941,596854,700463,194806,40420",700463
+368778,"I was trying to use Conda as an environment manager. I was able to create an environment in the container, but I was not able to activate it directly on startup of the container. Gunicorn build.",Machine Learning Zoomcamp,2021,"200161,214199,567765,912439,641330",567765
+330630,Is clustering problem allowed for the midterm project (multi-classification)?,Machine Learning Zoomcamp,2021,"347048,194806,643810,754877,173078",173078
+83727,Are we going to tackle Kubernetes and TensorFlow Serving and Kubeflow and Kubeflow Serving?,Machine Learning Zoomcamp,2021,"478055,322444,912439,676681,200161",676681
+453332,"This is somewhat unrelated to the lecture videos, but what would be the pros and cons of AWS and GCP? It seems like AWS is more popular.",Data Engineering Zoomcamp,2022,"449040,862021,666820,704244,432981",704244
+44998,Can you please share the code for model2.bin? I tried to unpickle it but couldn't.,Machine Learning Zoomcamp,2021,"596854,173078,831391,604487,105368",105368
+176531,What changes are required to host and port settings in Python script (both Flask and requests script) if we deploy our container to cloud (i.e. Heroku)?,Machine Learning Zoomcamp,2021,"604487,169051,912439,200161,547758",200161
+392451,Is there any easier way to do one-hot encoding without using DictVectorizer?,Machine Learning Zoomcamp,2021,"937167,641330,757451,912439,890166",757451
+574845,Can you talk a little bit more about ridge regression? Are there other regression types that are popular in data science?,Machine Learning Zoomcamp,2021,"105368,912439,641330,342609,937167",342609
+819721,Will you help us coordinate for peer reviews? How will I decide who to review and who will review me?,Machine Learning Zoomcamp,2021,"105368,912439,373352,169051,120784",120784
+966329,How many hours of daily study are recommended? And how to study continuously without a long break?,Machine Learning Zoomcamp,2021,"425941,214199,759839,604487,912439",759839
+37093,"In some resources, there is a .collect() method applied after a query on PySpark. Could you please explain in simple words what the purpose of this method is?",Data Engineering Zoomcamp,2022,"615971,296080,131069,993199,110700",993199
+53673,"How to document files, write GitHub readme files? Do you have any resources?",Machine Learning Zoomcamp,2021,"94614,325935,912439,425941,641330",94614
+956422,"Do you see data engineering being outsourced, like coding, for example? I tend to see people sourced out of Russia, Ukraine, and Poland? Is data engineering also affected by similar moves in 2022?",Data Engineering Zoomcamp,2022,"724668,392844,477416,337445,131069",477416
+489302,Are data engineering skills needed for a machine learning engineer?,Data Engineering Zoomcamp,2022,"969531,245146,317865,432981,449040",317865
+684911,Can you give us a tour of the Slack channel?,Data Engineering Zoomcamp,2022,"337445,724668,392844,131069,924360",924360
+322828,"Is there any other way to transform the y variable apart from log1p (and expm1) and if so, when and how should we transform it?",Machine Learning Zoomcamp,2021,"643810,200161,169051,425941,912439",425941
+679395,What would be the advantage of using Airflow over Azure DataFactory as an ETL tool?,Data Engineering Zoomcamp,2022,"432981,478083,296080,862021,602439",602439
+561837,Can we check for correlation/feature importance of categorical variables for numeric target?,Machine Learning Zoomcamp,2021,"360539,425941,912439,596854,254116",254116
+811827,Is there anything else that we have to be aware of for the midterm?,Machine Learning Zoomcamp,2021,"268864,322444,200161,425941,912439",268864
+160938,That mean proof screen – how did you get the plus?,Machine Learning Zoomcamp,2021,"596854,728436,105368,754877,606126",728436
+25315,"Is there some function or library to recode the categorical variables automatically, instead of the map method()? Just imagining doing this for 100 variables?",Machine Learning Zoomcamp,2021,"207316,169051,717187,214199,194806",207316
+880227,What are some of the most popular applications of logistic regression in data science?,Machine Learning Zoomcamp,2021,"214199,425941,703640,173078,105368",703640
+97473,Will the project be group or individual work?,Data Engineering Zoomcamp,2022,"75919,615971,131069,110700,250778",250778
+332543,What is the scenario for data engineering jobs in terms of backend development knowledge? How much backend development knowledge do data engineers need?,Data Engineering Zoomcamp,2022,"355453,629898,110700,392844,724668",355453
+55493,"Can you explain how to apply/organize version control over all stored procedures, functions, views in existing databases, coupled with other code?",Data Engineering Zoomcamp,2022,"198661,75919,195145,404476,908368",908368
+91518,What is the reasoning of using AUC for comparing features rather than feature and target? Is there any mathematical reason/intuitive notion behind it?,Machine Learning Zoomcamp,2021,"641330,425941,214199,522491,754877",522491
+376314,"Is there any tutorial to install DBT locally with Anaconda? I found someone explained it in Slack, but it is still not working when I run DBT in it.",Data Engineering Zoomcamp,2022,"141765,75919,131069,159394,449040",141765
+531053,I am trying to catch up and have almost finished the first week. What should I do?,Data Engineering Zoomcamp,2022,"131069,449040,159394,75919,9861",159394
+339111,"Regarding topics not being covered in the course, what about Data Mesh?",Data Engineering Zoomcamp,2022,"337445,75919,449040,392844,777459",777459
+167254,Do deployed models work through APIs?,Machine Learning Zoomcamp,2021,"604487,912439,276086,64950,525898",64950
+721375,"What algorithms/models are we allowed to use? For example, for gradient boosting, can we use LightGBM?",Machine Learning Zoomcamp,2021,"261747,547758,214199,596854,169051",261747
+165145,General architecture was shown last week. Could you go a bit into details about the technologies we are learning – Docker and Terraform first of all?,Data Engineering Zoomcamp,2022,"131069,478083,296080,862021,69511",69511
+722064,What is your decision on the idea of “TOP N Public Leaderboard?,Data Engineering Zoomcamp,2022,"432981,296080,990905,449040,75919",990905
+960237,What are your favorite non-common tools that you use for data engineering/analytics?,Data Engineering Zoomcamp,2022,"862021,707527,432981,195145,131069",707527
+863791,What is the difference between the resource manager and master?,Data Engineering Zoomcamp,2022,"478083,75919,586825,265598,159394",265598
+7931,Please recommend some books that we can read along with the course.,Data Engineering Zoomcamp,2022,"131069,75919,449040,463305,296080",463305
+123068,"Will the future iterations of the ML and DE Zoomcamps pick up the same videos, and the only difference being the homework?",Data Engineering Zoomcamp,2022,"131069,432981,392844,75919,110700",392844
+945614,What does it mean that using powers of two for batch size is easy for parallelization?,Machine Learning Zoomcamp,2021,"912439,134714,596854,373352,868350",868350
+181533,Will we be randomly assigned to a few projects to review? How many points do we need to get in order to pass the project and get the certificate?,Data Engineering Zoomcamp,2022,"348025,110700,449040,296080,75919",348025
+434838,"How does Data Vault differ from “classic” data warehouse concepts, like cubes, or star/Snowflake schemas?",Data Engineering Zoomcamp,2022,"36798,516357,862021,198661,75919",516357
+573074,A compilation of useful and interesting links discussed in Slack and used personally would be insanely helpful.,Data Engineering Zoomcamp,2022,"124694,392844,862021,432981,296080",124694
+188308,Do you provide a standard solution for the final project like you're doing for weekly homeworks?,Data Engineering Zoomcamp,2022,"432981,198661,759758,131069,965735",759758
+858307,I submitted the homework and sent the link to my GitHub. Is that okay?,Machine Learning Zoomcamp,2021,"162410,878140,912439,641330,478055",162410
+302720,Is it too late to start with the project today?,Machine Learning Zoomcamp,2021,"207165,912439,105368,827511,425941",207165
+167819,I’m really not able to understand the week 2 homework. Please explain in detail. Thank you.,Data Engineering Zoomcamp,2022,"449040,42794,131069,470847,337445",470847
+63486,Can you explain functional-style coding and how it's different from object-oriented programming? Why not use a sequential object for building the network?,Machine Learning Zoomcamp,2021,"604487,337027,347048,422297,754877",337027
+367142,Will there be another session starting soon?,Machine Learning Zoomcamp,2021,"214199,325935,425941,194806,347048",325935
+253711,"Even with extra jars needed, I could not write into tables, but only read and process.",Data Engineering Zoomcamp,2022,"131069,195145,198661,780406,75919",780406
+309400,Can only the 2019 and 2020 files be transferred using transfer service or should the entire bucket be transferred?,Data Engineering Zoomcamp,2022,"686577,831512,449040,159394,752792",752792
+381901,Could you update the current leader board results?,Machine Learning Zoomcamp,2021,"641330,105368,340381,912439,827511",340381
+179759,I'm storing data from a database into a data warehouse. How do I put it into a pipeline if the data in the database may change in the future?,Data Engineering Zoomcamp,2022,"110700,461922,838013,131069,75919",461922
+260742,What do you think about Scala? Is it important for data engineers to know this language?,Data Engineering Zoomcamp,2022,"75919,34583,984603,392844,159394",984603
+13938,I am facing problems in data cleaning. What techniques are good for data cleaning if we have large amounts of data?,Machine Learning Zoomcamp,2021,"641330,878140,912439,481080,782870",782870
+232873,Do you know any free ways to deploy models?,Machine Learning Zoomcamp,2021,"912439,169051,878140,134714,249183",249183
+250800,Did you all know how awesome you are for hosting this course?,Data Engineering Zoomcamp,2022,"75919,341839,126404,478083,141765",126404
+404906,"In my project, I got 0.9963 roc_auc_score for train, and 0.9303 for validation. Is that overfitting a bit much?",Machine Learning Zoomcamp,2021,"912439,435481,641330,937167,274012",435481
+512154,Andrew Ng’s course does not use Python. Do you still recommend taking it if ML mainly works with Python?,Machine Learning Zoomcamp,2021,"606126,754877,274012,214199,223605",274012
+534308,"If features correlate highly with labels, is it recommended to drop them in order to avoid leakage? If dropped, is there any risk of losing relevant features?",Machine Learning Zoomcamp,2021,"912439,525898,169051,134714,274012",134714
+688286,"In this week’s prerequisites, you recommended “setting your memory for your Docker Engine to minimum 5 GB.” So where do we do this? My Airflow webserver is not going up.",Data Engineering Zoomcamp,2022,"36798,951625,724151,75919,110700",724151
+638431,What will be the format of submissions for the week 2 homework?,Data Engineering Zoomcamp,2022,"449040,75919,668438,204569,64848",668438
+419247,What is the main challenge for data pipelines and what do you advise for companies that want to build a first-time data architecture/infrastructure?,Data Engineering Zoomcamp,2022,"110700,131069,966706,366700,75919",366700
+85749,But how would we know that we have to open model2.bin when we don't know it exists?,Machine Learning Zoomcamp,2021,"754877,912439,651754,226200,604487",226200
+978933,"When deploying, is machine learning expected only to predict or also to automate decision-making?",Machine Learning Zoomcamp,2021,"105368,169051,194806,310446,604487",310446
+43065,Can we host ML models on GitHub Pages?,Machine Learning Zoomcamp,2021,"134714,373352,878140,912439,196532",196532
+168291,"In your opinion, which topic requires the most effort to understand properly for someone brand new to data engineering?",Data Engineering Zoomcamp,2022,"474674,449040,704244,666820,392844",474674
+213649,Could you do a high level overview of the week 2 homework and what main points we should be getting out of this?,Data Engineering Zoomcamp,2022,"296080,131069,724668,392844,449040",131069
+744585,What do you all enjoy and do outside of work and data?,Data Engineering Zoomcamp,2022,"287399,36798,75919,131069,520809",520809
+816623,My Flask app is showing an error. How many marks will you deduct for this? All my things are correct but Flask app is showing an error in output.,Machine Learning Zoomcamp,2021,"937167,200161,134714,912439,373352",937167
+817985,I'm struggling to run python script with TensorFlow and TensorFlow Lite runtime on WSL with Ubuntu 18.04 with Python 3.8. Any leads?,Machine Learning Zoomcamp,2021,"642829,754877,425941,204684,426370",426370
+959129,"How do you think the skills that analytics engineers need are useful for data engineers? For example, knowing DBT? Is it quite useful for data engineers or maybe it's not their main focus?",Data Engineering Zoomcamp,2022,"859807,296080,449040,966706,131069",859807
+981522,Do you have separate materials or videos on setting up the environment in WSL and VSC?,Machine Learning Zoomcamp,2021,"308266,134714,736818,194806,196917",308266
+991913,"If you've completed the entire course and did all the homework, is there any way you can get the certificate if you're not interested in the project?",Data Engineering Zoomcamp,2022,"131069,478083,36798,296080,371990",371990
+178500,"In both your and Victoria’s experience, how much has the environment of data engineering changed? It feels like there have been many changes/tools in a short amount of time.",Data Engineering Zoomcamp,2022,"432981,843322,75919,83741,131069",83741
+631555,For rating data (number of stars) can we use a linear regression model?,Machine Learning Zoomcamp,2021,"641330,912439,827511,774098,764907",774098
+618453,Can Jenkins or GitLab be used instead of Airflow?,Data Engineering Zoomcamp,2022,"131069,969531,478083,159394,862021",969531
+36990,I may not be able to submit this time. Can I see some other people's work to learn what they did in their projects?,Machine Learning Zoomcamp,2021,"86155,322444,641330,912439,642829",86155
+315761,How many points do we get for the article about the project?,Machine Learning Zoomcamp,2021,"214199,912439,641330,323402,937167",323402
+994378,Why didn't the mean change after filling nans?,Machine Learning Zoomcamp,2021,"827511,32377,754877,937167,912439",32377
+62498,How would you productionize DBT with Airflow?,Data Engineering Zoomcamp,2022,"75919,110700,6416,131069,478083",6416
+193687,I've heard of Airbyte. Where does it fit in a pipeline?,Data Engineering Zoomcamp,2022,"110700,75919,579348,131069,296080",579348
+102044,"Software engineering utilizes test driven development. Since machine learning isn't rule-based, what kind of tests are written for ML projects?",Machine Learning Zoomcamp,2021,"820879,596854,380014,425941,564469",820879
+657084,Are there slides for the week 9 serverless videos?,Machine Learning Zoomcamp,2021,"200161,373352,959228,912439,643810",959228
+881966,Do we need to deploy our model in week five? Our country doesn't support AWS payment.,Machine Learning Zoomcamp,2021,"439850,651754,568519,484604,40420",484604
+265306,How many homework submissions were there this week?,Machine Learning Zoomcamp,2021,"169051,274012,878140,912439,814959",814959
+916316,I'm still confused about when to use the data frame or when to use the Spark SQL. Any advice or some simple case?,Data Engineering Zoomcamp,2022,"75919,42794,234073,141765,588778",588778
+93425,How did the plus come in the second last step?,Machine Learning Zoomcamp,2021,"754877,126767,912439,937167,903950",754877
+246063,Can you suggest any interesting datasets to try our data pipelines?,Data Engineering Zoomcamp,2022,"971586,75919,966706,392844,868860",966706
+307597,Why not use PCA to discriminate between important and less important features?,Machine Learning Zoomcamp,2021,"922812,764907,912439,200161,643810",922812
+567770,Why are you doing this for free? What motivates you all to put in this amount of work and dedication?,Data Engineering Zoomcamp,2022,"296080,131069,724668,704244,47753",47753
+670837,It would be really helpful if you can make one video per week (or as per your comfort) that summarizes that week's concepts for our better understanding.,Data Engineering Zoomcamp,2022,"629809,449040,666820,204569,110700",629809
+793034,Is it possible to bypass pipenv/any other Python virtual environments and go straight to Docker for development?,Machine Learning Zoomcamp,2021,"126767,912439,325935,452334,200161",452334
+516333,Do the homework assignments have deadlines? I found a lot of issues in week 1 in terms of dependencies and software versions working with each other.,Data Engineering Zoomcamp,2022,"666820,902322,704244,95645,392844",902322
+119336,Will the YouTube Playlist still be available after the course?,Data Engineering Zoomcamp,2022,"127707,794038,478083,75919,61634",61634
+255067,"When there is data shuffling, is it possible that the same key spills into another partition (because of partition size limit) so another shuffle is required?",Data Engineering Zoomcamp,2022,"75919,131069,660940,432981,296080",660940
+429513,"With DBT local, can one visualize DAGs?",Data Engineering Zoomcamp,2022,"539708,404476,198661,195145,862021",539708
+551623,What was the final conversion rate for your previous course in terms of how many people registered and actually finished?,Data Engineering Zoomcamp,2022,"449040,432981,95544,131069,296080",95544
+248149,"What are your suggestions for reinforcing what we have learned? I was able to get everything working, but I want things to stick.",Data Engineering Zoomcamp,2022,"478083,75919,131069,633144,862021",633144
+964356,"I'm aware of how logs simplify computations involving products, but is NP also prone to FLT PT errors?",Machine Learning Zoomcamp,2021,"641330,912439,306892,214199,525898",306892
+416970,How do you enable the package info for pop-ups on Jupyter Notebook?,Machine Learning Zoomcamp,2021,"937167,214199,105368,340381,376599",376599
+161883,Docker in Windows is a nightmare. Is there any way to make it easier?,Machine Learning Zoomcamp,2021,"105368,912439,617301,937167,642829",617301
+593121,"Are we building a project through this course? If not, could you give us some advice regarding that?",Data Engineering Zoomcamp,2022,"75919,432981,64848,341839,843322",341839
+725356,"How many students stay active learners after week 1, 2, and 3?",Data Engineering Zoomcamp,2022,"75919,198661,36798,957731,478083",957731
+914956,"The deadline for week 2 is the 7th of February, 2022?",Data Engineering Zoomcamp,2022,"365448,204569,956576,198661,75919",365448
+598385,"If somebody does not have a GCP account and wants to run our project, how can it be created? And vice versa – if we need to correct an AWS Azure-based project?",Data Engineering Zoomcamp,2022,"862021,392844,704244,42794,141765",42794
+571322,Is TensorFlow always used with Keras? I heard Keras was absorbed by TensorFlow.,Machine Learning Zoomcamp,2021,"126767,425941,879855,912439,604487",879855
+270063,How did you all meet? Did you work at the same company?,Data Engineering Zoomcamp,2022,"843322,289652,478083,908041,177008",908041
+748037,"Is there a similar solution like Kubernetes for deploying stateful applications (for example, databases) which will restart a stateful application?",Data Engineering Zoomcamp,2022,"296080,75919,287399,985972,432981",985972
+241788,Can the model with the ROC AUC score of around 0.70 from validation be used as a final model?,Machine Learning Zoomcamp,2021,"274012,831391,912439,596854,214199",831391
+595103,"When I click tab in the parentheses of the iPython code, it doesn't show as much info as yours. Is it because of different versions?",Machine Learning Zoomcamp,2021,"325935,651754,478055,214199,912439",651754
+450348,Can you please explain the use cases of Splunk and Snowflake?,Data Engineering Zoomcamp,2022,"432981,908368,296080,131069,733226",733226
+864660,Why did you use model2bin in the last question? It was not mentioned anywhere in homework.md.,Machine Learning Zoomcamp,2021,"40420,422297,32377,169051,623076",422297
+205640,"Would you mind clarifying evaluation on test and validation sets or give an example? When I tried with different regularizers, the values were pretty close.",Machine Learning Zoomcamp,2021,"604487,754877,558889,214199,596854",558889
