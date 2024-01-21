@@ -18,7 +18,7 @@ def predict_probabilities(question: str, answer: str) -> list:
     res = model(**tokens)
     return np.array(softmax(res.logits)).tolist()[0]
 
-def ask_question(question: str, course_name: str = None, max_num_answers: int = 5) -> list|str:
+def ask_question(question: str, course_name: str = None, max_num_answers: int = None) -> list:
     if answers is None:
         load_answers()
     
@@ -26,10 +26,12 @@ def ask_question(question: str, course_name: str = None, max_num_answers: int = 
     if course_name is not None:
         proper_answers = proper_answers[proper_answers['course'] == course_name]
 
-    if len(course_name) == 0:
+    if len(proper_answers) == 0:
         return []
-    
-    max_num_answers = min(max_num_answers, len(course_name))
+
+    if max_num_answers == None:
+        max_num_answers = 5
+    max_num_answers = min(max_num_answers, len(proper_answers))
 
     def get_pred(q, ans) -> int :
         return predict_probabilities(q, ans)[1]
