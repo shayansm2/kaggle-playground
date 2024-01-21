@@ -60,6 +60,7 @@ respose
 ### structure of transformer models
 ![transformers](./transformer.png)
 
+Transformers are basically made up of two main parts. 1. tokenizers and 2. the actual model. The main idea behind tokenizers is to convert language and text into numbers. This is because the fact that models cannot handle natural language and texts and tokenizers try to convert the text input into vectors of numbers. The model is also made up of two parts: the base and the head. If you recall CNNs, the base of CNNs are convolutional neurons which try to extract features from the image, while the head tries to predict the label of the image based on given features it got from the base model. the NLP model works the same way. The base model gives various data about the given input and the head tries to make a prediction based on base's data. Additionally, Transfer learning was being used in order to train the head model not the base model. This is also the same thing with NLPs as training the model is more about training the head model about desired outputs.
 
 ## Exporting notebook to script
 > - [input data prepration](./py_scripts/data_prepration.py)
