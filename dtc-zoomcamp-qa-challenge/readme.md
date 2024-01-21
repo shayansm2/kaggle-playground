@@ -1,7 +1,7 @@
 # DTC Zoomcamp Q&A Challenge (Second Capstone Project)
 
 ## Problem description
-The aim of this project is to answer questions related to [data engineering zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp/)and [machine learning zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) base on this [dataset in kaggle](https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/overview).
+The aim of this project is to answer questions related to [data engineering zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp/) and [machine learning zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) base on this [dataset in kaggle](https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/overview).
 
 <div style="text-align: center;">
     <img src="./_fe592c44-94d1-4aeb-9448-f6d49f56a1b9.jpeg" alt="alt_text" width="300" height="300"/>
@@ -50,7 +50,7 @@ respose
 
 
 ## EDA
-> - [eda](/eda.ipynb)
+> - [eda](./eda.ipynb)
 
 ![wordcloud](./wordclouds.png)
 ## Model training
