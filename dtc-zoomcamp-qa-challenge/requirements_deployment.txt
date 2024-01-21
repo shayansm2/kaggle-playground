@@ -2,8 +2,5 @@ numpy
 pandas
 tensorflow
 transformers
-scikit-learn
-datasets
 flask
-wordcloud
-matplotlib
+gunicorn

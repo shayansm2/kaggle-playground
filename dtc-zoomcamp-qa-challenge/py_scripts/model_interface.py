@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 
 checkpoint = "bert-base-uncased"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-model = TFAutoModelForSequenceClassification.from_pretrained('model.h5')
+model = TFAutoModelForSequenceClassification.from_pretrained('./model.h5')
 answers = None
 
 def predict(question: str, answer: str) -> bool:
